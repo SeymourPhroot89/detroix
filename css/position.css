@@ -1,0 +1,87 @@
+/* 
+    colors
+    
+    primary colors => #131c29
+    secondary => #ff8901
+    link color => #596573
+    top gradient => #33597e
+    bottom gradient => #0f1721 
+    footer => #0b1016
+    button color => #213349
+    date1 => #be8442
+    date2 => #be6142
+    date3 => #be425f
+
+    font
+
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    */
+
+:root {
+
+    --prim: #131c29;
+    --sec: #ff8901;
+    --btnColor: #213349; 
+    --footerColor: #0b1016; 
+    --primFont: 'Oswald', sans-serif; 
+    --secFont: 'Roboto', sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0; 
+    padding: 0; 
+}
+
+.inner {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.top-section {
+    background-color: #131c29;
+    color: #586470;
+    text-transform: uppercase;
+    list-style: none;
+    position: relative;
+    right: 0;
+}
+
+.top-section .inner {
+    position: relative;
+    height: 40px;
+}
+
+.demolink {
+    color: #586470;    
+    font-family: 'Oswald', sans-serif;
+    text-decoration: none;
+    position: absolute;
+    left: 0;
+    padding-top: 12px;
+}
+
+.top-list-item a {
+    color:#586470;
+    font-family: 'Oswald', sans-serif;
+    text-decoration: none;
+    border-right: solid #586470 1px;
+    padding-right: 6px;
+    padding-top: 12px;
+}
+
+.top-list {
+    width: 300px;
+    position: absolute;
+    margin: 0;
+    top: 8px;
+    right: 0;
+}
+
+.top-list li {
+    display: inline;
+}
